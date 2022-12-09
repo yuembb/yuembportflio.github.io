@@ -1,0 +1,1439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .6px;
+
+}
+
+body {
+    background-color: #100e17;
+    /* button rengi olucak #a97afd */
+
+}
+
+.mg-reset {
+    margin: 0 !important;
+}
+
+/***/
+/*! Header Start (Baslangic) */
+.head {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.header-container {
+    width: 60%;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.header-content {
+    display: flex;
+
+}
+
+.header ul li {
+    display: inline-block;
+    list-style: none;
+    padding: .5rem 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.header ul li a {
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: #a97afd;
+    transition: all .2s linear;
+    transform: scale(1.03);
+}
+
+/*? .header ul li a.active{  
+     text-decoration: underline; 
+    } */
+
+.header ul {
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+
+#icon {
+
+    /* background-color: #a97afd;
+    padding: 7px 7px 0px 7px; */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#icon svg {
+    height: 28px;
+}
+
+#icon,
+#checkbox {
+    display: none;
+}
+
+/*! Header End (Bitis) */
+/***/
+
+/***/
+/*! Home Start (Baslangic)  */
+
+.home-container {
+    width: 60%;
+    margin: auto;
+}
+
+.home-parent {
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.home-left {
+    width: 50%;
+}
+
+.home-left span {
+    padding: 10px 5px 10px 5px;
+    background-color: #a97afd;
+    border-radius: 3rem 3rem 3rem 0rem;
+}
+
+.home-left h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 48px;
+}
+
+.home-left h4 {
+    margin-bottom: 1.5rem;
+    font-size: 22px;
+}
+
+.home-left ul li {
+    margin-bottom: 1rem;
+    font-size: 14px;
+    list-style: none;
+}
+
+.li-mail::before {
+    content: url(image/envelope.png);
+    padding-right: 10px;
+    /* list-style-image: url(image/envelope.png); */
+}
+
+.li-phone::before {
+    content: url(image/phone-call.png);
+    padding-right: 10px;
+    /* list-style-image: url(image/phone-call.png) */
+}
+
+.li-locate::before {
+    content: url(image/marker.png);
+    padding-right: 10px;
+    /* list-style-image: url(image/marker.png) */
+}
+
+.home-info ul li a {
+    text-decoration: none;
+}
+
+.home-social ul li {
+    display: inline-block;
+    list-style: none;
+
+    margin: 10px 10px 10px 0;
+    padding: 4px 14px;
+}
+
+.home-social ul li:hover {
+    background-color: #a97afd;
+    border-radius: 1rem;
+}
+
+.home-social ul li a {
+    text-decoration: none;
+}
+
+.home-right {
+    width: 50%;
+}
+
+.home-right-picture {
+    width: 75%;
+    border: solid 1.5rem black;
+    border-radius: 100%;
+    padding: 1rem;
+    margin: auto;
+
+}
+
+.home-right-picture img {
+    border-radius: 100%;
+    max-width: 100%;
+}
+
+/*! Home End (Bitis) */
+/***/
+
+/***/
+/*! About Me Start (Baslangic)  */
+
+
+#about-me::before {
+    content: url(image/before-content2.png);
+
+}
+
+.about-container {
+    width: 60%;
+    margin: auto;
+}
+
+.about-parent {
+    width: 100%;
+    display: flex;
+    padding: 100px 0;
+}
+
+.about-left {
+    width: 50%;
+}
+
+.about-left img {
+    max-width: 100%;
+}
+
+.about-right {
+    width: 50%;
+    padding: 0 0 0 50px;
+}
+
+.about-right h2 {
+    font-size: 48px;
+}
+
+.about-right p {
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.about-right ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 6px 10px;
+    padding: 4px 0;
+}
+
+.about-right ul li span {
+
+    border: 1px solid #a97afd;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.about-right button {
+    padding: 10px;
+    background-color: #a97afd;
+    border-radius: 30px;
+}
+
+.about-right button a {
+    text-decoration: none;
+}
+
+/*! About Me End (Bitis) */
+
+
+/***/
+/*! What I Do Start (Baslangic)  */
+
+.what-i-do-container {
+    width: 60%;
+    margin: auto;
+}
+
+.what-i-do-parent {
+    width: 100%;
+    display: flex;
+    padding: 100px 0;
+
+}
+
+.what-i-do-header {
+    width: 100%;
+    text-align: center;
+}
+
+.what-i-do-header h2 {
+    font-size: 48px;
+}
+
+.what-i-do-left {
+    width: 33.3333%;
+    padding: 20px;
+    box-shadow: rgb(0, 0, 0) -1rem 0px 3rem;
+    background-color: rgb(32, 32, 38);
+
+}
+
+.what-i-do-left p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.what-i-do-left h3 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.what-i-do-center {
+    width: 33.3333%;
+    padding: 20px;
+    margin-left: 30px;
+    box-shadow: rgb(0, 0, 0) -1rem 0px 3rem;
+    background-color: rgb(32, 32, 38);
+}
+
+.what-i-do-center p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.what-i-do-center h3 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.what-i-do-right {
+    width: 33.3333%;
+    padding: 20px;
+    box-shadow: rgb(0, 0, 0) -1rem 0px 3rem;
+    background-color: rgb(32, 32, 38);
+    margin-left: 30px;
+
+}
+
+.what-i-do-right p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.what-i-do-right h3 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/*!  What I Do End  (Bitis) */
+/***/
+
+
+/***/
+/*! Skills (yeteneklerim) Start (Baslangic)  */
+
+#skill-go::before {
+    content: url(image/before-content2.png);
+
+}
+
+.skills-container {
+    width: 60%;
+    margin: auto;
+}
+
+.skills-parent {
+    width: 100%;
+    display: flex;
+
+}
+
+.skills-left {
+    width: 50%;
+    margin-right: 1rem;
+}
+
+.skills-left h3 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+.skill {
+    margin-bottom: 25px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.skill p {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.skill:before {
+    width: 100%;
+    height: 10px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgb(58, 58, 58);
+    bottom: 0;
+    border-radius: 3rem;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background: #a97afd;
+    display: block;
+    position: relative;
+}
+
+.skill-bar span {
+    position: absolute;
+    border-top: 5px solid #a97afd;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+
+.skill-bar {
+    position: relative;
+    border-radius: 3rem;
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+.skill1 {
+    width: 85%;
+}
+
+.skill2 {
+    width: 80%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+
+.skill3 {
+    width: 75%;
+}
+
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+.skill4 {
+    width: 40%;
+}
+
+.skill5 {
+    width: 67%;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+.skill6 {
+    width: 35%;
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+}
+
+.skill7 {
+    width: 25%;
+}
+
+.skill7 .skill-count7 {
+    right: 0;
+}
+
+
+.skills-right {
+    width: 50%;
+}
+
+.skills-right h3 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.skill-right {
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.skill-right p {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.skill-right:before {
+    width: 100%;
+    height: 10px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgb(58, 58, 58);
+    bottom: 0;
+    border-radius: 3rem;
+}
+
+.skill8 {
+    width: 95%;
+}
+
+.skill8 .skill-count8 {
+    right: 0;
+}
+
+.skill9 {
+    width: 70%;
+}
+
+.skill9 .skill-count9 {
+    right: 0;
+}
+
+.skill10 {
+    width: 60%;
+}
+
+.skill10 .skill-count10 {
+    right: 0;
+}
+
+.skill11 {
+    width: 65%;
+}
+
+.skill11 .skill-count11 {
+    right: 0;
+}
+
+/***/
+/*!  Skills (yeteneklerim) End (Bitis) */
+/***/
+
+
+/***/
+/*!  Experiences (tercübelerim) Start (Baslangic) */
+/***/
+
+#experiences-go::before {
+    content: url(image/before-content2.png);
+
+}
+
+.experiences-container {
+    width: 60%;
+    margin: auto;
+}
+
+.experiences-parent {
+    width: 100%;
+    display: flex;
+    padding: 100px 0;
+
+}
+
+.experiences-left {
+    padding-right: 30px;
+    width: 50%;
+}
+
+.experiences-left h2 {
+    margin-bottom: 60px;
+}
+
+.experiences-left-content {
+    width: 100%;
+    padding: 26px 30px;
+    margin-bottom: 30px;
+    box-shadow: rgb(0, 0, 0) -1rem 0px 3rem;
+    background-color: rgb(32, 32, 38);
+
+}
+
+.experiences-left-content p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.experiences-left-content h4 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.experiences-left-content h4 a {
+    text-decoration: none;
+    color: #a97afd;
+}
+
+.experiences-left-content-time {
+    color: #a97afd;
+    margin: 10px 0;
+}
+
+
+.experiences-right {
+
+    width: 50%;
+}
+
+.experiences-right h2 {
+    margin-bottom: 60px;
+}
+
+
+.experiences-right-content {
+    width: 100%;
+    padding: 26px 30px;
+    margin-bottom: 30px;
+    box-shadow: rgb(0, 0, 0) -1rem 0px 3rem;
+    background-color: rgb(32, 32, 38);
+
+}
+
+.experiences-right-content p {
+    font-size: 12px;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.experiences-right-content h4 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.experiences-right-content h4 a {
+    text-decoration: none;
+    color: #a97afd;
+}
+
+.experiences-right-content-time {
+    color: #a97afd;
+    margin: 10px 0;
+}
+
+.experiences-right-content ul li {
+    list-style: none;
+}
+
+.experiences-right-content ul li {
+    margin-top: 9.3px;
+}
+
+.experiences-right-content ul li::before {
+    content: url(image/circle.png);
+}
+
+/*!  Experiences (tercübelerim) End  (Bitis) */
+/***/
+
+
+/***/
+/*!  Blog (Blok) Start (Baslangic) */
+/***/
+
+.blog-container {
+    width: 60%;
+    margin: auto;
+}
+
+.blog-parent {
+    width: 100%;
+    display: flex;
+    padding: 100px 0;
+
+}
+
+.blog-header {
+    width: 100%;
+    text-align: center;
+}
+
+.blog-header h2 {
+    font-size: 48px;
+}
+
+.blog-parent a {
+    text-decoration: none;
+    color: #a97afd;
+}
+
+.blog-left {
+    width: 33.3333%;
+    box-shadow: rgb(0, 0, 0) -1rem 0px 3rem;
+    background-color: rgb(32, 32, 38);
+    border-radius: 1rem 1rem 0 0;
+    margin-left: 30px;
+}
+
+.blog-img img {
+    max-width: 100%;
+
+}
+
+.blog-left-inner {
+    padding: 0 20px 20px 20px;
+}
+
+.blog-left p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.blog-left h3 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+/*!  Blog (Blok) End (Bitis) */
+/***/
+
+
+
+
+
+
+/***/
+/*!  Client (müşteri) Start (Baslangic) */
+/***/
+
+.client-container {
+    width: 60%;
+    margin: auto;
+}
+
+.client-parent {
+    width: 100%;
+    display: flex;
+    padding: 100px 0;
+
+}
+
+.client-header {
+    width: 100%;
+    text-align: center;
+}
+
+.client-header h2 {
+    font-size: 48px;
+}
+
+.client-parent a {
+    text-decoration: none;
+    color: #a97afd;
+}
+
+.client-left {
+    width: 33.3333%;
+    box-shadow: rgb(0, 0, 0) -1rem 0px 3rem;
+    background-color: rgb(32, 32, 38);
+    border-radius: 1rem;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.client-img img {
+    max-width: 40%;
+    border-radius: 100%;
+    margin: 2rem;
+    border: solid 5px #a97afd;
+
+}
+
+
+.client-left-inner {
+    padding: 0 20px 20px 20px;
+
+}
+
+.client-left p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.client-left h3 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+/*!  Client (müşteri) End (Bitis) */
+/***/
+
+
+
+
+
+
+
+
+
+
+/***/
+/*!  Contact Me  Start (iletisim)  (Baslangic) */
+/***/
+
+.contact-container {
+    width: 60%;
+    margin: auto;
+}
+
+.contact-parent {
+    width: 100%;
+    display: flex;
+    padding: 100px 0;
+
+}
+
+.contact-header {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-header h2 {
+    font-size: 48px;
+}
+
+.contact-parent a {
+    text-decoration: none;
+    color: #a97afd;
+}
+
+.contact-left {
+    width: 33.3333%;
+    box-shadow: rgb(0, 0, 0) -1rem 0px 3rem;
+    background-color: rgb(32, 32, 38);
+    border-radius: 1rem;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.contact-img img {
+    max-width: 100%;
+    border-radius: 100%;
+    margin: 2rem;
+    padding: 2rem;
+    border: solid 2px #a97afd;
+
+}
+
+
+.contact-left-inner {
+    padding: 0 20px 20px 20px;
+
+}
+
+.contact-left p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-left h4 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+/*!  Contact Me  End(iletisim)  (Bitis) */
+/***/
+
+
+
+
+/*!  Contact Me Footer Form Start(iletisim)  (baslangic) */
+/***/
+
+.contact-form-container {
+    width: 60%;
+    margin: auto;
+}
+
+.contact-form-parent {
+    width: 100%;
+    display: flex;
+}
+
+.contact-form-left {
+    width: 50%;
+}
+
+
+
+.input-full-page {
+    width: 100%;
+}
+
+.full-page {
+    background-color: transparent;
+    border: solid 1px #222;
+    padding: 20px;
+    margin: 0 0 40px;
+    width: 100%;
+}
+
+.massage-full-page {
+    background-color: transparent;
+    border: solid 1px #222;
+    padding: 20px;
+    margin: 0 0 40px;
+    width: 100%;
+}
+
+.full-page-button {
+    background-color: transparent;
+    border: solid 1px #222;
+    padding: 20px;
+    margin: 0 0 40px;
+    width: 100%;
+    background-color: #a97afd;
+    border-radius: 3rem;
+}
+
+
+
+
+.contact-form-right {
+    width: 50%;
+}
+
+.contact-form-right-maps {
+    width: 100%;
+    border-radius: 3rem;
+    padding-left: 1rem;
+}
+
+
+/*!  Contact Me Footer Form End(iletisim)  (Bitis) */
+/***/
+
+
+
+
+/*!  Footer icon Start(icon)  (Bitis) */
+/***/
+
+.footer-icon-container {
+    width: 60%;
+    margin: auto;
+}
+
+.footer-icon-parent {
+    width: 100%;
+    display: flex;
+    padding: 140px 0;
+}
+
+.footer-icon-left {
+    width: 50%;
+}
+
+.footer-icon-left p a {
+    text-decoration: none;
+
+}
+
+.footer-icon-right {
+    width: 50%;
+}
+
+/*!   Footer icon End(icon)  (Bitis) */
+/***/
+
+
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+/*! Responsive Start (Baslangic) */
+
+
+@media screen and (max-width: 1250px) {
+    .skills-container {
+        width: 95%;
+    }
+
+    .skills-parent {
+        display: block;
+    }
+
+    .skills-left {
+        width: 100%;
+    }
+
+    .skills-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1111px) {
+
+    /****Home Start ************************************************************************/
+    /****Home Start ************************************************************************/
+    .home-container {
+        width: 95%;
+    }
+
+    .home-parent {
+        display: block;
+        text-align: center;
+    }
+
+    .home-right {
+        width: 70%;
+        margin: auto;
+    }
+
+    .home-left {
+        width: 100%;
+    }
+
+    /****Home End ************************************************************************/
+    /****Home End ************************************************************************/
+
+    /****Experiences Start ************************************************************************/
+    /****Experiences Start ************************************************************************/
+
+    .experiences-container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .experiences-parent {
+        display: block;
+    }
+
+    .experiences-left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .experiences-right {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    /****Experiences End ************************************************************************/
+    /****Experiences End ************************************************************************/
+
+
+    /****Blog Start ************************************************************************/
+    /****Blog Start ************************************************************************/
+    .blog-container {
+        width: 75%;
+        margin: auto;
+    }
+
+    .blog-parent {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .blog-left {
+        width: 80%;
+        margin: auto !important;
+        margin-bottom: 1rem;
+    }
+
+    .blog-img img {
+        width: 100%;
+        text-align: center;
+        background-size: 100%;
+    }
+
+
+    /****Blog End ************************************************************************/
+    /****Blog End ************************************************************************/
+
+
+
+
+
+    /****Footer inputs Start ************************************************************************/
+    /****Footer inputs Start ************************************************************************/
+
+    .contact-form-container {
+        width: 95%;
+        margin: auto;
+    }
+
+
+
+
+    /****Footer inputs End ************************************************************************/
+    /****Footer inputs  End ************************************************************************/
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+
+    /****Blog Start ************************************************************************/
+    /****Blog Start ************************************************************************/
+    .client-container {
+        width: 95%;
+        margin: auto;
+    }
+
+    /****Blog End ************************************************************************/
+    /****Blog End ************************************************************************/
+
+    /****Contact End ************************************************************************/
+    /****Contact End ************************************************************************/
+
+    .contact-container {
+        width: 95%;
+        margin: auto;
+    }
+
+
+
+    /****Contact End ************************************************************************/
+    /****Contact End ************************************************************************/
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /****Head Start ************************************************************************/
+    /****Head Start ************************************************************************/
+    .head {
+        border-bottom: #100e17 1px solid;
+    }
+
+    .header-container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .header-content {
+        width: 100%;
+    }
+
+    .header ul {
+        width: 100%;
+        height: 100vh;
+        background-color: #222;
+        text-align: left;
+        display: none;
+        margin-top: 78px;
+    }
+
+    .header ul li {
+        display: block;
+    }
+
+    .header ul li a {
+        display: block;
+    }
+
+    #icon {
+        display: block;
+        padding: 7px 3px 0px 3px;
+    }
+
+    #icon:active {
+        background-color: #a97afd;
+    }
+
+    #checkbox:checked~ul {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+
+    /****Head End ************************************************************************/
+    /****Head End ************************************************************************/
+
+    /****About  Start  ************************************************************************/
+    /****About  Start************************************************************************/
+
+    .about-container {
+        width: 95%;
+        margin: auto;
+    }
+
+
+
+    .about-parent {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+
+    .about-right {
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 30px;
+    }
+
+    /****About End ************************************************************************/
+    /****About End ************************************************************************/
+
+
+    /**** What i do (ne yaptım) Start  ************************************************************************/
+    /**** What i do (ne yaptım) Start ************************************************************************/
+
+    .what-i-do-container {
+        width: 95%;
+    }
+
+    .what-i-do-parent {
+        display: block;
+    }
+
+    .what-i-do-left {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .what-i-do-center {
+        width: 100%;
+        margin: 0;
+
+        margin-bottom: 1rem;
+    }
+
+    .what-i-do-right {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+
+    /**** What i do (ne yaptım) End ************************************************************************/
+    /**** What i do (ne yaptım)  End ************************************************************************/
+
+
+
+    /****Blog Start ************************************************************************/
+    /****Blog Start ************************************************************************/
+    .blog-container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .blog-parent {
+        display: block;
+    }
+
+    .blog-left {
+        width: 100%;
+        margin: 1rem 0 0 0 !important;
+    }
+
+
+    .blog-img img {
+        width: 100%;
+        text-align: center;
+        background-size: 100%;
+    }
+
+    .blog-left-inner h3 {
+        margin-top: 1rem;
+    }
+
+
+    /****Blog End ************************************************************************/
+    /****Blog End ************************************************************************/
+
+
+
+    /****Client Start ************************************************************************/
+    /****Client Start ************************************************************************/
+
+    .client-container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .client-parent {
+        display: block;
+    }
+
+    .client-left {
+        width: 100%;
+        margin: 1rem 0 0 0;
+    }
+
+
+    /****Client End ************************************************************************/
+    /****Client End ************************************************************************/
+
+
+
+
+    /****Contact End ************************************************************************/
+    /****Contact End ************************************************************************/
+
+    .contact-parent {
+        display: block;
+    }
+
+    .contact-left {
+        width: 100%;
+        margin: 1rem 0 0 0;
+    }
+
+
+
+    /****Contact End ************************************************************************/
+    /****Contact End ************************************************************************/
+
+
+    /****Footer inputs Start ************************************************************************/
+    /****Footer inputs Start ************************************************************************/
+
+    .contact-form-parent {
+        display: block;
+
+    }
+
+
+    .contact-form-left {
+        width: 100%;
+    }
+
+    .contact-form-right {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+
+
+    /****Footer inputs End ************************************************************************/
+    /****Footer inputs End ************************************************************************/
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+
+
+
+
+
+    /****Home Start ************************************************************************/
+    /****Home Start ************************************************************************/
+    .home-container {
+        width: 90%;
+    }
+
+    .home-parent {
+        display: block;
+        text-align: center;
+    }
+
+
+    .home-right {
+        width: 100%;
+
+    }
+
+    .home-left {
+        width: 100%;
+
+    }
+
+    .home-right-picture {
+        margin-top: 30px;
+    }
+
+    /****Home End ************************************************************************/
+    /****Home End ************************************************************************/
+
+    /****Footer icon Start ************************************************************************/
+    /****Footer icon Start ************************************************************************/
+    .footer-icon-container{
+        width: 95%;
+        margin: auto;
+    }
+    .footer-icon-parent{
+        display: block;
+        text-align: center;
+    }
+    .footer-icon-left{
+        width: 100%;
+    }
+    .footer-icon-right{
+        width: 100%;
+    }
+
+    /****Footer icon End ************************************************************************/
+    /****Footer icon End ************************************************************************/
+
+}
+
+
+
+
+
+/*! Responsive End (Bitis) */
+
+
+/* pure css order araştır*/
